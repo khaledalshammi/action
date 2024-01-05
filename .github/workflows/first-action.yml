@@ -1,5 +1,5 @@
 name: First Worflow
-on: worflow_dispatch
+on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubunty-latest
