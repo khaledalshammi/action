@@ -1,0 +1,10 @@
+name: First Worflow
+on: worflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubunty-latest
+    steps:
+      - name: Print khaled
+        run: echo "hello khaled"
+      - name: print bye
+        run: echo "bye!"
