@@ -1,4 +1,4 @@
-name: First Worflow
+name: First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: Print khaled
         run: echo "hello khaled"
-      - name: print bye
+      - name: Print bye
         run: echo "bye!"
